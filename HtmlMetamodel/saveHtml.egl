@@ -9,7 +9,7 @@
 	while(d< c.size-1){
 	
 	var e:Template:=TemplateFactory.prepare(c[d].toString());
-	e.generate('Promociones/Promociones'+d+'.html');
+	e.generate('Promociones'+d+'.html');
 	d=d+1;
 	}
 	
